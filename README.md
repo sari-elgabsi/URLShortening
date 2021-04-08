@@ -10,7 +10,7 @@
     
  # APIs invocation using postman
  
- 1. for Shortening API use below curl:
+ 1. For Shortening API use below curl:
  
  curl --location --request PUT 'http://localhost:8080/shortenUrl' \
  --header 'Content-Type: application/json' \
@@ -20,16 +20,16 @@
  
  originalLongURL value provided as reference.
  
- 2. redirect:
+ 2. For redirect API use below curl:
  
  curl --location --request GET 'http://localhost:8080/redirectUrl/U'
  
- path variable provided as reference and can be replaced according to Shortening API response
+ path variable provided as reference.
  
- 3. Analytics:
+ 3. For Analytics API use below curl:
  
  curl --location --request GET 'http://localhost:8080/shortenedUrlStatistics/U' 
  
- path variable provided as reference and can be replaced according to Shortening API response
+ path variable provided as reference.
  
  
