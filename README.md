@@ -1,6 +1,6 @@
 # Guides
 
-1. Import project to Intelij/ide.
+1. Import project to Intelij/IDE.
 
 2. Run the application.
 
