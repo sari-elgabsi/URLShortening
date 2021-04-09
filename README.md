@@ -8,6 +8,12 @@
 
     https://dev.mysql.com/doc/mysql-installation-excerpt/5.7/en/
     
+    use below query to create data base:
+    
+    creat table shortenedURLs;
+    
+    name can be changed under application.properties file -  spring.datasource.url
+    
  # APIs invocation using postman
  
  1. For Shortening API use below curl:
