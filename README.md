@@ -10,7 +10,7 @@
     
     use below query to create data base:
     
-    creat table shortenedURLs;
+    creat database shortenedURLs;
     
     name can be changed under application.properties file -  spring.datasource.url
     
