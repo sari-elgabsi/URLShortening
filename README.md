@@ -18,7 +18,7 @@
  
  1. For Shortening API use below curl:
  
- curl --location --request PUT 'http://localhost:8080/shortenUrl' \
+ curl --location --request POST 'http://localhost:8080/shortenUrl' \
  --header 'Content-Type: application/json' \
  --data-raw '{
     "originalLongURL": "https://www.tremorvideo.com/"
