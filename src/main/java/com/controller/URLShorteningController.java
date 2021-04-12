@@ -17,7 +17,7 @@ public class URLShorteningController {
     @Autowired
     URLShorteningService urlShorteningService;
 
-    @PutMapping ("/shortenUrl")
+    @PostMapping ("/shortenUrl")
     public ResponseEntity<URLResponse> createShortenedURL(@RequestBody URL requestURL) {
         urlShorteningService.validateUrl(requestURL);
         URLResponse urlResponse = new URLResponse();
